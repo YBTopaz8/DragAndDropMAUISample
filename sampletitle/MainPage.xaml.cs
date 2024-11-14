@@ -39,7 +39,7 @@ namespace sampletitle
                     if (item is Windows.Storage.StorageFile file)
                     {
                         string fileExtension = file.FileType.ToLower();
-                        if(fileExtension == ".jpg" || fileExtension == ".jpeg" || fileExtension == ".png")
+                        if(fileExtension == ".jpg" || fileExtension == ".jpeg" || fileExtension == ".png") //check any other type of file you want to accept
                         {
 
                             dragUI.Caption = "Drop the file!";
